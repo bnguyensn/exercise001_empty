@@ -21,3 +21,7 @@ Given a bunch of weights, each weighing either 1kg, 2kg, or 3kg, find the amount
 ## 5. Bug fixing reverse number 🔃
 
 ***Instructions from Credera.***
+
+## 6. FizzBuzz 🤖
+
+A function that returns "Fizz", "Buzz", "FizzBuzz", or an integer denoting the index number of a list.

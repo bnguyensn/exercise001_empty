@@ -1,5 +1,6 @@
 from typing import List
 
+
 def fibonacci_from_zero(how_many: int) -> List[int]:
     """Return an array of length how_many, filled with Fibonacci numbers,
     starting from 0
