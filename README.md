@@ -1,5 +1,19 @@
 # EXERCISE 001 🤩
 
+A collection of Python exercises.
+
+Available commands:
+
+```bash
+# Execute all functions
+$ python main.py
+
+# Run all tests
+$ pytest
+```
+
+Listed below are descriptions of each exercises.
+
 ## 1. Fibonacci 👨‍🔬
 
 A function that returns `n` Fibonacci numbers sequentially, starting from 0.
