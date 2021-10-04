@@ -13,17 +13,23 @@ import pytest
 1. SIMPLE
 
 A very simple test, not grouped in classes or anything, no abstractions.
+
+assert is a standard statement used commonly in tests
+Docs: docs.python.org/3/reference/simple_stmts.html#assert
 """
 
 
 def test_fibonacci_from_zero_simple():
-  # Arrange
+  # Arrange - Let's create what we expect the function being tested to
+  # return
+  how_many = 4
   expected = [0, 1, 1, 2]
   
-  # Act
-  actual = fibonacci_from_zero(4)
+  # Act - Let's run the function with what we've arranged above
+  actual = fibonacci_from_zero(how_many)
 
-  # Assert
+  # Assert - Let's check that the function returns what we expect from
+  # what we arranged above
   assert len(expected) == len(actual)
   assert expected == actual
 
