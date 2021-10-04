@@ -2,7 +2,7 @@
 
 A collection of Python exercises.
 
-Available commands:
+A few starter commands:
 
 ```bash
 # Execute all functions
