@@ -1,5 +1,5 @@
 """
-This file acts as a descriptive introduction in testing Python code with pytest.
+This file acts as a descriptive introduction to testing Python code with pytest.
 It starts out by describing the simplest way of testing a function, to suggesting
 a few noteworthy abstractions.
 """
